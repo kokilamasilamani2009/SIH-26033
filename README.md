@@ -57,6 +57,8 @@ We propose KrishiSetu, an AI-driven, hyper-local B2B and B2C agricultural market
 • Step 3 — Order Aggregation Window: Consumers and bulk buyers place orders within a daily cut-off window (e.g., before 8:00 PM for next-day morning delivery).
 • Step 4 — Route Generation: At cut-off, OR-Tools clusters orders by pin code, assigns available local logistics vehicles, and generates optimized pickup-and-drop sequences.
 • Step 5 — Fulfillment & Instant Settlement: QR-code scanning at pickup and delivery triggers automated UPI split settlements directly to the farmer/FPO and driver.
+<img width="1536" height="1024" alt="ChatGPT Image" src="https://github.com/user-attachments/assets/f375d8b9-b4fe-4dbc-baa9-2ea01fb6b987" />
+
 ## Feasibility and Viability
 1. Analysis of Feasibility
 • Technical Feasibility: Built on mature, open-source geospatial and optimization libraries (PostGIS, OR-Tools) and existing Indian Digital Public Infrastructure (UPI, Bhashini, Agmarknet APIs).
